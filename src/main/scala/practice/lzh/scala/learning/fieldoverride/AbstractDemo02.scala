@@ -8,6 +8,7 @@ object AbstractDemo02 {
     println("ok......")
     println("============")
     val a = new AbstractDemo002 {
+      //该override可以省略
       override def sayHi(): Unit = {
         println(this.name)
       }
