@@ -24,5 +24,12 @@ object HelloScala {
     println("Hello的首字符:" + beginStr)
     println("Hello的尾字符:" + endStr)
 
+    //没有形参的方法可以省略括号
+    def test01: Unit = {
+      println("sout...")
+    }
+    //调用test01方法
+    test01
+
   }
 }
