@@ -12,7 +12,13 @@ object ForDemo {
   def main(args: Array[String]): Unit = {
     //使用Range控制步长，从1遍历到10，步长为2
     for (i <- Range(1, 10, 2)) {
-      println(i) //1,3,5,7,9
+      println("range:" + i) //1,3,5,7,9
+    }
+
+
+    //这里，until相当于 [1,5)
+    for (i <- 1 until 5) {
+      println("until:" + i)
     }
 
 

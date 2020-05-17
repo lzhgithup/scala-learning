@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a2e3070-d785-47b8-ae4d-9c6fe9e93d1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/forTest/ForDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/lzh/scala/learning/HelloScala$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practice/lzh/scala/learning/HelloScala$.class" afterDir="false" />
-    </list>
+    <list default="true" id="4a2e3070-d785-47b8-ae4d-9c6fe9e93d1d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +174,7 @@
       <workItem from="1589292719105" duration="288000" />
       <workItem from="1589296305776" duration="1239000" />
       <workItem from="1589691979914" duration="2994000" />
-      <workItem from="1589713381422" duration="3669000" />
+      <workItem from="1589713381422" duration="3919000" />
     </task>
     <servers />
   </component>
