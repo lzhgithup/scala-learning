@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2e3070-d785-47b8-ae4d-9c6fe9e93d1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/HelloScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/HelloScala.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/packagedemo/PackageTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/packagedemo/PackageTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/lzh/scala/learning/forTest/ForDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practice/lzh/scala/learning/forTest/ForDemo$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/lzh/scala01/packagedemo/scalaPackageTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/lzh/scala01/packagedemo/scalaPackageTest/Test001$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/lzh/scala01/packagedemo/scalaPackageTest/Test001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/lzh/scala01/packagedemo/scalaPackageTest01/Test002$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/lzh/scala01/packagedemo/scalaPackageTest01/Test002.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/lzh/javaTest/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/lzh/javaTest/SupperT.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloScala">
+  <component name="RunManager" selected="Application.Sub">
     <configuration name="ForDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.forTest.ForDemo" />
       <module name="scala01" />
@@ -119,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.scalaJavaTest.ScalaTest" />
+    <configuration name="Sub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.javaTest.Sub" />
       <module name="scala01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.lzh.scala.learning.scalaJavaTest.*" />
+          <option name="PATTERN" value="practice.lzh.javaTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sub" />
         <item itemvalue="Application.HelloScala" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.Test001" />
         <item itemvalue="Application.ForDemo" />
-        <item itemvalue="Application.ScalaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +177,7 @@
       <workItem from="1589292719105" duration="288000" />
       <workItem from="1589296305776" duration="1239000" />
       <workItem from="1589691979914" duration="2994000" />
-      <workItem from="1589713381422" duration="7284000" />
+      <workItem from="1589713381422" duration="9059000" />
     </task>
     <servers />
   </component>
