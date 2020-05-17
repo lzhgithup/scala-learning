@@ -7,16 +7,23 @@
  *
  *
  */
-package practice.lzh.scala01.packagedemo{
+package practice.lzh.scala.learning.packagedemo {
 
   package scalaPackageTest { //practice.lzh.scala01.packagedemo.scalaPackageTest
 
     class Person { //表示在包practice.lzh.scala01.packagedemo.scalaPackageTest中创建了Person类
 
-      var name:String= "test01"
+      var name: String = "test01"
 
-      def play(str:String): Unit ={
-        println(this.name+"..."+str)
+      def play(str: String): Unit = {
+        println(this.name + "..." + str)
+      }
+    }
+
+    object Person {
+      def main(args: Array[String]): Unit = {
+        val p = new Person
+        p.play("ccc")
       }
     }
 
@@ -28,13 +35,16 @@ package practice.lzh.scala01.packagedemo{
 
   }
 
-  package scalaPackageTest01{
-    object Test002{
+  package scalaPackageTest01 {
+
+    object Test002 {
       def main(args: Array[String]): Unit = {
         println("Test002~~~~~~~~~")
       }
     }
+
   }
+
 }
 
 

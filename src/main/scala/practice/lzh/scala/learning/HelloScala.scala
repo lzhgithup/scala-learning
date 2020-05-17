@@ -31,5 +31,10 @@ object HelloScala {
     //调用test01方法
     test01
 
+
+    //计算字符串的unicode编码的乘积
+    var unitCodeValue: Long = 1
+    "Hello".foreach(i => unitCodeValue *= i.toLong)
+    println(unitCodeValue)
   }
 }
