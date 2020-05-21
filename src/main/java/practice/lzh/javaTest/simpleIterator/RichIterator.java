@@ -2,7 +2,11 @@ package practice.lzh.javaTest.simpleIterator;
 
 import java.util.function.Consumer;
 
-public interface RichIterator<T> extends AbstractIterator<T> {
+abstract class RichIterator<T> implements AbstractIterator<T> {
 
-    void foreach(Consumer<T> action);
+    public void foreach(Consumer<T> action) {
+        while (hasNext()) {
+            action.accept(next());
+        }
+    }
 }

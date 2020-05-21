@@ -1,16 +1,12 @@
 package practice.lzh.javaTest.simpleIterator;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Consumer;
-
 /**
  * 字符串迭代器
  * @author ：lizhihao
  * @description：TODO
  * @date ：2020/5/22
  */
-public class StringIterator implements AbstractIterator<Character>, RichIterator<Character>{
+public class StringIterator extends RichIterator<Character>{
 
     private String s;
 
@@ -30,17 +26,5 @@ public class StringIterator implements AbstractIterator<Character>, RichIterator
         char c = s.charAt(i);
         i++;
         return c;
-    }
-
-    @Override
-    public void foreach(Consumer<Character> action) {
-        while (hasNext()) {
-            action.accept(next());
-        }
-    }
-
-    public static void main(String[] args) {
-        StringIterator stringIterator = new StringIterator("java");
-        stringIterator.foreach(System.out::println);
     }
 }
