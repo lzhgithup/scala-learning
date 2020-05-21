@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2e3070-d785-47b8-ae4d-9c6fe9e93d1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/traitDemo/TraitDemo3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/lzh/javaTest/simpleIterator/AbstractIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/lzh/javaTest/simpleIterator/RichIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/lzh/javaTest/simpleIterator/StringIterator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,7 @@
       <list>
         <option value="Package Object" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,13 +75,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TraitDemo3">
-    <configuration name="FieldOverrideDemo1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.fieldoverride.FieldOverrideDemo1" />
+  <component name="RunManager" selected="Application.StringIterator">
+    <configuration name="StringIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.javaTest.simpleIterator.StringIterator" />
       <module name="scala01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.lzh.scala.learning.fieldoverride.*" />
+          <option name="PATTERN" value="practice.lzh.javaTest.simpleIterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringIterator" />
         <item itemvalue="Application.TraitDemo3" />
         <item itemvalue="Application.TraitDemo2" />
         <item itemvalue="Application.TraitDemo1" />
         <item itemvalue="Application.TraitDemo" />
-        <item itemvalue="Application.FieldOverrideDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +181,7 @@
       <workItem from="1589691979914" duration="2994000" />
       <workItem from="1589713381422" duration="10172000" />
       <workItem from="1589809771671" duration="5413000" />
-      <workItem from="1589896794793" duration="7757000" />
+      <workItem from="1589896794793" duration="9012000" />
     </task>
     <servers />
   </component>
