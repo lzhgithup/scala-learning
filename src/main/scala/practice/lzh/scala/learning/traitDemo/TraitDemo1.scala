@@ -52,4 +52,6 @@ trait File extends Data {
   }
 }
 
-class Mysql {}
+class Mysql {
+  println("mysql")
+}
