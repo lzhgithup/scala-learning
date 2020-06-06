@@ -17,6 +17,7 @@ class MyTypeProjection {
     /**
      * 类型投影，接触外部类实例和内部类实例的绑定关系
      * 语法：外部类#内部类
+     * 作用：屏蔽外部类实例对内部类实例的影响
      * @param param
      */
     def info2(param: MyTypeProjection#MyTypeProjectionInner): Unit = {
