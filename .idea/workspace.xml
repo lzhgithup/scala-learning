@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2e3070-d785-47b8-ae4d-9c6fe9e93d1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/nestedClass/MyTypeProjection.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/implicitDemo/MyImplicitClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/implicitDemo/MyImplicitConvert.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/implicitDemo/MyImplicitConvert1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/implicitDemo/MyImplicitValue.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +76,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTypeProjection">
-    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.javaTest.IteratorDemo" />
+  <component name="RunManager" selected="Application.MyImplicitClass">
+    <configuration name="MyImplicitClass" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.implicitDemo.MyImplicitClass" />
       <module name="scala01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.lzh.javaTest.*" />
+          <option name="PATTERN" value="practice.lzh.scala.learning.implicitDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +90,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyOuter" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.nestedClass.MyOuter" />
+    <configuration name="MyImplicitConvert" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.implicitDemo.MyImplicitConvert" />
       <module name="scala01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.lzh.scala.learning.nestedClass.*" />
+          <option name="PATTERN" value="practice.lzh.scala.learning.implicitDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyImplicitConvert1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.implicitDemo.MyImplicitConvert1" />
+      <module name="scala01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.lzh.scala.learning.implicitDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyImplicitValue" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.implicitDemo.MyImplicitValue" />
+      <module name="scala01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.lzh.scala.learning.implicitDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,39 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.javaTest.simpleIterator.StringIterator" />
-      <module name="scala01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.lzh.javaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraitDemo1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.traitDemo.TraitDemo1" />
-      <module name="scala01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.lzh.scala.learning.traitDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyImplicitClass" />
+        <item itemvalue="Application.MyImplicitValue" />
+        <item itemvalue="Application.MyImplicitConvert1" />
+        <item itemvalue="Application.MyImplicitConvert" />
         <item itemvalue="Application.MyTypeProjection" />
-        <item itemvalue="Application.MyOuter" />
-        <item itemvalue="Application.TraitDemo1" />
-        <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.StringIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +188,9 @@
       <workItem from="1590326327714" duration="3635000" />
       <workItem from="1590502293772" duration="1681000" />
       <workItem from="1591407577415" duration="13000" />
-      <workItem from="1591457125058" duration="3801000" />
+      <workItem from="1591457125058" duration="4301000" />
+      <workItem from="1591506321621" duration="3901000" />
+      <workItem from="1591517513237" duration="1433000" />
     </task>
     <servers />
   </component>
