@@ -36,5 +36,10 @@ object HelloScala {
     var unitCodeValue: Long = 1
     "Hello".foreach(i => unitCodeValue *= i.toLong)
     println(unitCodeValue)
+
+    val list1 = List(1,2,3,"abc")
+    val list2 = List(22,5)
+    val list3 = 4::5::6::list1::list2
+    println(list3)
   }
 }
