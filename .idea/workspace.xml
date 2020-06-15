@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a2e3070-d785-47b8-ae4d-9c6fe9e93d1d" name="Default Changelist" comment="" />
+    <list default="true" id="4a2e3070-d785-47b8-ae4d-9c6fe9e93d1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/lzh/scala/learning/collectionOp/MyCollectionOp.scala" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloScala">
+  <component name="RunManager" selected="Application.MyCollectionOp">
     <configuration name="HelloScala" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.HelloScala" />
       <module name="scala01" />
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyImplicitClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.implicitDemo.MyImplicitClass" />
+    <configuration name="MyCollectionOp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.collectionOp.MyCollectionOp" />
       <module name="scala01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.lzh.scala.learning.implicitDemo.*" />
+          <option name="PATTERN" value="practice.lzh.scala.learning.collectionOp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyImplicitConvert" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.implicitDemo.MyImplicitConvert" />
+    <configuration name="MyImplicitClass" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.lzh.scala.learning.implicitDemo.MyImplicitClass" />
       <module name="scala01" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyCollectionOp" />
         <item itemvalue="Application.HelloScala" />
         <item itemvalue="Application.MyImplicitClass" />
         <item itemvalue="Application.MyImplicitValue" />
         <item itemvalue="Application.MyImplicitConvert1" />
-        <item itemvalue="Application.MyImplicitConvert" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +189,9 @@
       <workItem from="1591506321621" duration="3901000" />
       <workItem from="1591517513237" duration="1718000" />
       <workItem from="1591717874746" duration="28000" />
+      <workItem from="1591717919817" duration="223000" />
+      <workItem from="1591883303955" duration="1391000" />
+      <workItem from="1592227123430" duration="3794000" />
     </task>
     <servers />
   </component>
